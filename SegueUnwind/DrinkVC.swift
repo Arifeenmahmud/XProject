@@ -11,13 +11,9 @@ class DrinkVC: UIViewController {
     @IBOutlet weak var drinkDisplayLabel: UILabel!
     @IBOutlet weak var foodTextFild: UITextField!
     
-    var DrinkValue = String!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        drinkDisplayLabel.text = drinkValue
 
     }
     
