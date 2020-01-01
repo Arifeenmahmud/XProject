@@ -10,6 +10,7 @@ import UIKit
 
 class VideoListScreen: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
     var Videos: [Video] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,13 +41,16 @@ class VideoListScreen: UIViewController {
 
 }
 
-extension VideoListScreen: UITableViewDataSource, UITableViewDelegate {
+extension VideoListScreen: UITableViewDataSource, UITabBarDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Videos.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let video = Videos[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell") as! VideoCell
+        cell.setVideo(video: video)
+        return cell
     }
+    
 }

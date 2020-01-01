@@ -13,4 +13,8 @@ class VideoCell: UITableViewCell {
     @IBOutlet var VideoImageView: UIImageView!
     @IBOutlet var videoTitleLabel: UILabel!
     
+    func setVideo(video: Video) {
+        VideoImageView.image = video.image
+        videoTitleLabel.text = video.title
+    }
 }
