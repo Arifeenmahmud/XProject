@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 //            print(response.request as Any)
 //            print(response.response as Any)
 //            print(response.result as Any)
+            
             var temp : Double = 0.0
                         if let jsonDictionary = response.value as? [String : Any] {
                             if let currentWeatherDictionary = jsonDictionary["currently"] as? [String : Any]{
