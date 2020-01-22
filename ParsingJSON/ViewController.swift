@@ -28,12 +28,12 @@ class ViewController: UIViewController {
             do{
                 let countries = try JSONDecoder().decode([Country].self, from: data!)
                 
-                for country in countries {
-                    print(country.name + ":" + country.capatil)
+                for Country in countries {
+                    print(Country.name + ":" + Country.capatil)
                 }
                 
             } catch{
-                print("We got an Error")
+                //return()//print("Not me error")
             }
         }.resume()
         
