@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F133B3A23D0790F00F9BAF7 /* Pods_PodInstall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534BF081130753BD2EED8FB2 /* Pods_PodInstall.framework */; };
+		0F133B3B23D0790F00F9BAF7 /* Pods_PodInstall.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 534BF081130753BD2EED8FB2 /* Pods_PodInstall.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0FDECB6E23D06644001A90A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDECB6D23D06644001A90A9 /* AppDelegate.swift */; };
 		0FDECB7023D06644001A90A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDECB6F23D06644001A90A9 /* SceneDelegate.swift */; };
 		0FDECB7223D06644001A90A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDECB7123D06644001A90A9 /* ViewController.swift */; };
 		0FDECB7523D06644001A90A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDECB7323D06644001A90A9 /* Main.storyboard */; };
 		0FDECB7723D06647001A90A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDECB7623D06647001A90A9 /* Assets.xcassets */; };
 		0FDECB7A23D06647001A90A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDECB7823D06647001A90A9 /* LaunchScreen.storyboard */; };
-		B5AD0A6AA689050B05509A0D /* Pods_PodInstall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534BF081130753BD2EED8FB2 /* Pods_PodInstall.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F133B3C23D0790F00F9BAF7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F133B3B23D0790F00F9BAF7 /* Pods_PodInstall.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0FDECB6A23D06644001A90A9 /* PodInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AD0A6AA689050B05509A0D /* Pods_PodInstall.framework in Frameworks */,
+				0F133B3A23D0790F00F9BAF7 /* Pods_PodInstall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +63,6 @@
 				816010AA5E79BCEF054AD558 /* Pods-PodInstall.debug.xcconfig */,
 				1B267AAA8AD292CF9855CB10 /* Pods-PodInstall.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +118,7 @@
 				0FDECB6723D06644001A90A9 /* Frameworks */,
 				0FDECB6823D06644001A90A9 /* Resources */,
 				597DD2D2ABDC9A3B1246AA5E /* [CP] Embed Pods Frameworks */,
+				0F133B3C23D0790F00F9BAF7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
