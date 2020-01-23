@@ -14,6 +14,7 @@
 		0F9430FF23D9B59B00CFAB52 /* DataSaving.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F9430FD23D9B59B00CFAB52 /* DataSaving.xcdatamodeld */; };
 		0F94310123D9B59F00CFAB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F94310023D9B59F00CFAB52 /* Assets.xcassets */; };
 		0F94310423D9B59F00CFAB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F94310223D9B59F00CFAB52 /* LaunchScreen.storyboard */; };
+		0F94310C23D9BF9200CFAB52 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F94310B23D9BF9200CFAB52 /* PersistenceService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0F94310023D9B59F00CFAB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F94310323D9B59F00CFAB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F94310523D9B59F00CFAB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F94310B23D9BF9200CFAB52 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0F9430F423D9B59B00CFAB52 /* AppDelegate.swift */,
 				0F9430F623D9B59B00CFAB52 /* SceneDelegate.swift */,
 				0F9430F823D9B59B00CFAB52 /* ViewController.swift */,
+				0F94310B23D9BF9200CFAB52 /* PersistenceService.swift */,
 				0F9430FA23D9B59B00CFAB52 /* Main.storyboard */,
 				0F94310023D9B59F00CFAB52 /* Assets.xcassets */,
 				0F94310223D9B59F00CFAB52 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F94310C23D9BF9200CFAB52 /* PersistenceService.swift in Sources */,
 				0F9430F923D9B59B00CFAB52 /* ViewController.swift in Sources */,
 				0F9430FF23D9B59B00CFAB52 /* DataSaving.xcdatamodeld in Sources */,
 				0F9430F523D9B59B00CFAB52 /* AppDelegate.swift in Sources */,
