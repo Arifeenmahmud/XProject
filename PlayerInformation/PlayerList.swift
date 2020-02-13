@@ -16,7 +16,7 @@ struct PlayerList: View {
                 NavigationLink(destination: ContentView(player: currentPlayer)){
                 PlayerRow(player: currentPlayer).frame(height:90)
                 }
-            }.navigationBarTitle(Text("The Final Team Players"))
+            }.navigationBarTitle(Text("IOS Dev Batch-2020"))
         }
     }
 }

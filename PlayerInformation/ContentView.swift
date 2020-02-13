@@ -15,7 +15,7 @@ struct ContentView: View {
   VStack{
     Image(player.team.imageName).resizable().aspectRatio(contentMode: .fit)
     
-    Image(player.imageName).clipShape(Circle()).background(Circle().foregroundColor(.white)).overlay(Circle().stroke(Color.white, lineWidth: 4)).offset(x:0, y:-90).padding(.bottom, -78).shadow(radius: 20)
+    Image(player.imageName).clipShape(Circle()).background(Circle().foregroundColor(.white)).overlay(Circle().stroke(Color.white, lineWidth: 4)).offset(x:0, y:-90).padding(.bottom, -78).shadow(radius: 100)
     
     Text(player.name).font(.system(size:32)).fontWeight(.heavy)
 
